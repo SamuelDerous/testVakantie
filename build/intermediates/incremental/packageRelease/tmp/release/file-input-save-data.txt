@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Apr 12 22:10:24 CEST 2019
+0.baseType=DIRECTORY
+0.base=/home/zenodotus/StudioProjects/testVakantie/app/build/intermediates/dex/release/mergeDexRelease/out
+0.path=classes.dex
+0.set=DEX
+count=1

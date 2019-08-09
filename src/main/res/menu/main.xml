@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="be.zenodotus.jvakantie.MainActivity" >
+
+    <item
+        android:id="@+id/mnuPDF"
+        android:orderInCategory="400"
+        android:title="@string/pdf"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="500"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    
+
+</menu>

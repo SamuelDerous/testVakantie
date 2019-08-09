@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="be.zenodotus.testVakantie"
+    android:versionCode="2"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="be.zenodotus.jvakantie.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="be.zenodotus.jvakantie.AddActivity"
+            android:label="@string/addVerlof" >
+        </activity>
+        <activity
+            android:name="be.zenodotus.jvakantie.AddSoort"
+            android:label="@string/toevoegen" >
+        </activity>
+        <activity
+            android:name="be.zenodotus.jvakantie.SoortenActivity"
+            android:label="@string/soorten" >
+        </activity>
+        <activity
+            android:name="be.zenodotus.jvakantie.BerekeningenActivity"
+            android:label="@string/berekeningen" >
+        </activity>
+        <activity
+            android:name="be.zenodotus.jvakantie.SettingsActivity"
+            android:label="@string/settings" >
+        </activity>
+    </application>
+
+</manifest>
